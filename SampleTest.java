@@ -12,6 +12,7 @@ public class TecAdminSeleniumTest {
                 ChromeOptions chromeOptions = new ChromeOptions();
                 chromeOptions.addArguments("--headless");
                 chromeOptions.addArguments("--no-sandbox");
+         
  
                 WebDriver driver = new ChromeDriver(chromeOptions);
  
